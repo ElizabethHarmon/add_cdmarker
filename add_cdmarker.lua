@@ -1,4 +1,9 @@
-ardour { ["type"] = "EditorAction", name = "Add CD marker" }
+ardour { 
+	["type"] = "EditorAction", 
+	name = "Add CD marker",
+	description = "Allows for creation of CD markers using a keyboard shortcut in Ardour" 
+	}
+
 function 
 factory () 
 	return function () 
